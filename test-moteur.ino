@@ -1,3 +1,12 @@
+/* 
+
+Ce partie de code n'est uniquement
+que pour vérifier si les moteurs
+fonctionnent correctement
+
+
+*/
+
 const int pinPWM_A = 3;      // Broche pour la vitesse du moteur A
 const int pinPWM_B = 11;      // Broche pour la vitesse du moteur B
 const int pinDIR_A = 12;      // Broche pour le sens du moteur A
