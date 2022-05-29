@@ -1,6 +1,11 @@
-/***********************************************
- * Déclaration et initialisation des variables *
- ***********************************************/
+/* 
+
+Code pour le suiveur
+de ligne et la détection
+d'obstacle
+
+*/
+
 #include <SPI.h>
 #include <MFRC522.h>
 
