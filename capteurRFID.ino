@@ -64,7 +64,7 @@ for(int y = 0; y < (sizeof(keyOk)/sizeof(String)) ; y++){
   rfid.PCD_StopCrypto1();
 
 
-// La carte as t'elle acces , si oui led verte , si non led rouge
+// La carte est-elle autorisé ?
   if(accessOk == 1){
     Serial.println("test");
     digitalWrite (retour, HIGH);
@@ -73,6 +73,6 @@ for(int y = 0; y < (sizeof(keyOk)/sizeof(String)) ; y++){
     Serial.println("test2");
   }
 
-// on eteind les led apres un delais
+// on eteins les leds après un delais
 delay(2000);
 }
